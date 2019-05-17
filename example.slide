@@ -1,7 +1,7 @@
-Showcase presentations in GoTalks format
+Showcase with GoTalks
 Using go.talks/present
 17 May 2019
-Tags: example, showcase, hosted
+Tags: example, showcase, live-hosted
 
 Harmanjeet Singh
 hrmnjt@hrmn.in
@@ -14,6 +14,7 @@ https://hrmn.in
 
 We can wrap around `*` (asterisk) instead of spaces to *bold*any*text*
 We can wrap around `_` (underscore) instead of spaces to _italicize_any_text_
+We can wrap around ``` (backtick) instead of spaces to `codify`any`text`
 
 * Comments
 
@@ -26,13 +27,37 @@ Comments can be added using # (hash)
 - Points can be added using a `-` (hyphen) at column 1
 - Spacing needs to be maintained for the points
 
-* Adding images
+* Change background
 
-* Using tags
+.background ./images/background_image.png
 
-Go present uses `.image` tags to showcase image
+To change background of the slide we can use `.background` tags
 
-For eg: `.image`http://farm4.staticflickr.com/3327/3249988445_76b4972a11.jpg`
+For example this slide uses
+`.background`./images/background_image.jpg`
 
+* Adding dynamic content
+
+* Using image tags
+
+We can use `.image` tags to showcase image
+
+For eg: `.image`link/to/the/image`
 translates to
-.image http://farm4.staticflickr.com/3327/3249988445_76b4972a11.jpg
+.image https://images.unsplash.com/photo-1558039719-79cb7b60d279?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80
+
+* Creating captions
+
+We can use the `.caption` tag to create a caption for any image
+
+.image https://2.bp.blogspot.com/-ejWkJPG3MtE/WvjlJczHJhI/AAAAAAAAQTw/92J-u5MQk7ot8vrb7gGjzsy0BGGEqc6ZQCLcBGAs/s1600/bunnypillboxsm.jpg 300 300
+.caption _Gopher_ by [[https://www.instagram.com/reneefrench/][Renée French]]
+
+* Using iframes
+
+We can use `.iframe`link/to/content`height`width` tags to showcase dynamic content
+
+.iframe https://www.youtube.com/embed/jgVhBThJdXc 315 560
+
+Or we can use `.video`videos/video_name.mp4`video/format`height`width`
+
