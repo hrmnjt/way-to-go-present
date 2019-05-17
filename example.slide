@@ -1,0 +1,38 @@
+Showcase presentations in GoTalks format
+Using go.talks/present
+17 May 2019
+Tags: example, showcase, hosted
+
+Harmanjeet Singh
+hrmnjt@hrmn.in
+https://hrmn.in
+@hrmnjts
+
+* Formatting
+
+* Text Highlighting
+
+We can wrap around `*` (asterisk) instead of spaces to *bold*any*text*
+We can wrap around `_` (underscore) instead of spaces to _italicize_any_text_
+
+* Comments
+
+# Preceeding comment
+Comments can be added using # (hash)
+# Trailing comment
+
+* Bullet Points
+
+- Points can be added using a `-` (hyphen) at column 1
+- Spacing needs to be maintained for the points
+
+* Adding images
+
+* Using tags
+
+Go present uses `.image` tags to showcase image
+
+For eg: `.image`http://farm4.staticflickr.com/3327/3249988445_76b4972a11.jpg`
+
+translates to
+.image http://farm4.staticflickr.com/3327/3249988445_76b4972a11.jpg
