@@ -18,3 +18,4 @@ __You can check the format of content from example.slide in this repo__
 1. Commit and push your .slide to your public Github/Gitlab repository
 2. Go to https://talks.godoc.org/github.com/YOUR_USER_NAME/YOUR_REPOSITORY_NAME/PATH/TO/SLIDE.slide to share and view your slide
 
+For example slide and tutorial - https://talks.godoc.org/github.com/hrmnjt/way-to-go-present/example.slide
