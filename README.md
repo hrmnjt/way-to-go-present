@@ -28,4 +28,5 @@ https://talks.golang.org/2017
 
 ## License
 
-WTFPL - ![WTFPL Logo](http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x1601.png)
+WTFPL  
+![WTFPL Logo](http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x1601.png)
