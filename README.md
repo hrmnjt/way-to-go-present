@@ -4,7 +4,7 @@ Are you bored of powerpoints and want to make slide that get the content correct
 
 ## Usage
 
-### Build your content locally:
+### Build and run your content locally:
 
 1. Install go.talks/present
 2. Create some_content.slide in your editor
