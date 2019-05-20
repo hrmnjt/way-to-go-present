@@ -22,9 +22,12 @@ For example slide and tutorial - https://talks.godoc.org/github.com/hrmnjt/way-t
 
 ## References
 
-https://godoc.org/golang.org/x/tools/present
+https://godoc.org/golang.org/x/tools/present  
 https://talks.golang.org/2017
 
+## Comments
+
+Please create an issue if there are any comments. Constructive criticism is appreciated!
 
 ## License
 
