@@ -31,18 +31,76 @@ Comments can be added using # (hash)
 
 .background ./images/background_image.png
 
-To change background of the slide we can use `.background` tags
+To change background of the slide we can use `.background` function.
 
 For example this slide uses
 `.background`./images/background_image.jpg`
 
+* Speaker notes
+
+Presenter notes may be enabled by appending the "-notes" flag when you run your "present" binary.
+
+This will allow you to open a second window by pressing 'N' from your browser displaying your slides. 
+
+The second window is completely synced with your main window, except that presenter notes are only visible on the second window. 
+
+: Example notes for this slide
+
+* Adding code
+
+* Showcase code
+
+To injects program source by extracting code from files as HTML-escaped <pre> blocks we can use `.code` function. 
+
+`.code`snippets/playground.go`
+translates to:
+.code snippets/playground.go
+
+* Formatting the code injections
+
+- Lines with OMIT are removed from the code injections
+
+Comments are removed from injections
+.code snippets/playground-with-comment.go 
+
+* Formatting the code injections
+
+- Subsetting the code can be done using regex
+
+`.code`snippets/playground.go`/^func main/,/^}/`
+translates to:
+
+.code snippets/playground.go /^func main/,/^}/
+
+* Formatting the code injections
+
+- Displayed text can be highlighted using `//`HL` in the line end.
+
+`.code`snippets/playground-with-highlight.go`
+translates to:
+
+.code snippets/playground-with-highlight.go 
+
+* Formatting the code injections
+
+- Highlights can also be done using code invocation.
+
+Same program with HL invocation 
+`.code`snippets/playground.go` `HL123`
+translates to:
+.code snippets/playground.go HL123
+
+* Run code to show the results
+
+.play snippets/playground.go
+
 * Adding dynamic content
 
-* Using image tags
+* Using image function
 
-We can use `.image` tags to showcase image
+We can use `.image` function to showcase image
 
-For eg: `.image`link/to/the/image`
+`.image`link/to/the/image`
 translates to
 .image https://images.unsplash.com/photo-1558039719-79cb7b60d279?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80
 
@@ -55,9 +113,10 @@ We can use the `.caption` tag to create a caption for any image
 
 * Using iframes
 
-We can use `.iframe`link/to/content`height`width` tags to showcase dynamic content
+We can use `.iframe`link/to/content`height`width` function to showcase dynamic content
 
 .iframe https://www.youtube.com/embed/jgVhBThJdXc 315 560
 
 Or we can use `.video`videos/video_name.mp4`video/format`height`width`
 
+* Congratulations on getting rid of powerpoint for your presentation!
