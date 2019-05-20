@@ -24,3 +24,8 @@ For example slide and tutorial - https://talks.godoc.org/github.com/hrmnjt/way-t
 
 https://godoc.org/golang.org/x/tools/present
 https://talks.golang.org/2017
+
+
+## License
+
+WTFPL - ![WTFPL Logo](http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x1601.png)
