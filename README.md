@@ -2,6 +2,8 @@
 
 Are you bored of powerpoints and want to make slide that get the content correct. You can use go.talks/present tool to create slides that look great and simple and lets you focus on the content. All that with minimal effort while maintaining content with code and version control.
 
+This project serves as a base for your presentation.
+
 ## Usage
 
 ### Build and run your content locally:
@@ -22,8 +24,8 @@ For example slide and tutorial - https://talks.godoc.org/github.com/hrmnjt/way-t
 
 ## References
 
-https://godoc.org/golang.org/x/tools/present  
-https://talks.golang.org/2017
+Official documentation - https://godoc.org/golang.org/x/tools/present  
+Example content - https://talks.golang.org/2017
 
 ## Comments
 
