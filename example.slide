@@ -29,12 +29,12 @@ Comments can be added using # (hash)
 
 * Change background
 
-.background ./images/background_image.png
+.background ./img/background_image.png
 
 To change background of the slide we can use `.background` function.
 
 For example this slide uses
-`.background`./images/background_image.jpg`
+`.background`./img/background_image.jpg`
 
 * Speaker notes
 
@@ -52,47 +52,47 @@ The second window is completely synced with your main window, except that presen
 
 To injects program source by extracting code from files as HTML-escaped <pre> blocks we can use `.code` function. 
 
-`.code`snippets/playground.go`
+`.code`code/playground.go`
 translates to:
-.code snippets/playground.go
+.code code/playground.go
 
 * Formatting the code injections
 
 - Lines with OMIT are removed from the code injections
 
 Comments are removed from injections
-.code snippets/playground-with-comment.go 
+.code code/playground-with-comment.go 
 
 * Formatting the code injections
 
 - Subsetting the code can be done using regex
 
-`.code`snippets/playground.go`/^func main/,/^}/`
+`.code`code/playground.go`/^func main/,/^}/`
 translates to:
 
-.code snippets/playground.go /^func main/,/^}/
+.code code/playground.go /^func main/,/^}/
 
 * Formatting the code injections
 
 - Displayed text can be highlighted using `//`HL` in the line end.
 
-`.code`snippets/playground-with-highlight.go`
+`.code`code/playground-with-highlight.go`
 translates to:
 
-.code snippets/playground-with-highlight.go 
+.code code/playground-with-highlight.go 
 
 * Formatting the code injections
 
 - Highlights can also be done using code invocation.
 
 Same program with HL invocation 
-`.code`snippets/playground.go` `HL123`
+`.code`code/playground.go` `HL123`
 translates to:
-.code snippets/playground.go HL123
+.code code/playground.go HL123
 
 * Run code to show the results
 
-.play snippets/playground.go
+.play code/playground.go
 
 * Adding dynamic content
 
