@@ -1,5 +1,7 @@
 # Presentations in code
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/hrmnjt/way-to-go-present)
+
 Are you bored of powerpoints and want to make slide that get the content correct. You can use go.talks/present tool to create slides that look great and simple and lets you focus on the content. All that with minimal effort while maintaining content with code and version control.
 
 This project serves as a base for your presentation.
