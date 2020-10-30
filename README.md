@@ -1,4 +1,4 @@
-# Presentations in code
+# Presentations as code
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/hrmnjt/way-to-go-present)
 
